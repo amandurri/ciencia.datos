@@ -238,11 +238,15 @@ def mad(vals_in):
 
 def covarianza(vals_x,vals_y):
   """
-  clacula la variaza de un alista de numeros
+  calcula la variaza de una lista de numeros
   detecta y elimina los NANs
   parametros 
   ----
-  vals_x,vals_y:
+  vals_x,vals_y: lista
+  retorna
+  ---------
+  covarianza:float
+    covarianza 
   """
   x=[]
   y=[]
@@ -263,7 +267,16 @@ def covarianza(vals_x,vals_y):
 
 def correlacion(vals_x,vals_y):
   """
-  Ca
+  Calcula la correlacion de dos listas de numeros
+  elimina y detecta los NANS
+  Parametros
+  ----------
+  vals1,vals2 : list
+    Listas de numeros
+  Retorna
+  -------
+     Correlacion:float
+    Correlacion de
   """
   x=[]
   y=[]
