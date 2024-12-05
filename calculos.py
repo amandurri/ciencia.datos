@@ -1,9 +1,9 @@
 
-from calculoUnivariado.py import promedio,mediana,moda
-from calculoUnivariado.py import rango,varianza
-from calculoUnivariado.py import std
-from calculoUnivariado.py import percentil,iqr
-from calculoUnivariado.py import mad
+from calculoUnivaridaArreglado.py import promedio,mediana,moda
+from calculoUnivaridaArreglado.py  import rango,varianza
+from calculoUnivaridaArreglado.py import std
+from calculoUnivaridaArreglado.py import percentil,iqr
+from calculoUnivaridaArreglado.py import mad
 import math 
 import numpy as np
 
