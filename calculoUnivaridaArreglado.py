@@ -16,7 +16,7 @@ def promedio(vals_in):
     if math.isfinite(v):
       vals.append(v)
 
-  promedio:sum(vals)/len(vals)
+  promedio=sum(vals)/len(vals)
   return promedio
 
 def mediana(vals_in):
