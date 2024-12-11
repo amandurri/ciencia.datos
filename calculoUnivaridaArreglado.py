@@ -1,4 +1,3 @@
-
 def promedio(vals_in):
   """
   Calcula el promedio de una lista de numeros
